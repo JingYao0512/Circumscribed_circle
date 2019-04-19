@@ -1,0 +1,10 @@
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.exe.config
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.exe
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.pdb
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csprojAssemblyReference.cache
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Form1.resources
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Properties.Resources.resources
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csproj.GenerateResource.cache
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csproj.CoreCompileInputs.cache
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.exe
+C:\Users\gilin\Desktop\cc\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.pdb
