@@ -164,7 +164,7 @@ namespace Circumscribed_circle
             norm = Cross(centerAB, centerAC);
 
             //計算角度
-            angle = (norm[0] * 1 + norm[1] * 1) / Math.Sqrt(Math.Pow(norm[0], 2) + Math.Pow(norm[1], 2)) / Math.Sqrt(2);
+            angle = (norm[0] * 1 ) / Math.Sqrt(Math.Pow(norm[0], 2) + Math.Pow(norm[1], 2)) / Math.Sqrt(1);
             angle = Math.Acos(angle) / Math.PI * 180;
         }
 
@@ -308,38 +308,41 @@ namespace Circumscribed_circle
                     double radi, angle;
                     try
                     {
-                        for (int times = 0; times < 3; times++)
+                        for (int times = 0; times < 4; times++)
                         {
-                            x = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 0][2].ToString()),
+                            if (dt.Rows[times * 3 + DataNumber[dataInd] + 0][2].ToString() != "")
+                            {
+
+                                x = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 0][2].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 0][3].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 0][4].ToString()) };
-                            y = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 1][2].ToString()),
+                                y = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 1][2].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 1][3].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 1][4].ToString()) };
-                            z = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 2][2].ToString()),
+                                z = new double[] {  double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 2][2].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 2][3].ToString()),
                                                 double.Parse(dt.Rows[times * 3 + DataNumber[dataInd] + 2][4].ToString()) };
 
-                            ori = new double[3];
-                            radi = 0;
-                            norm = new double[3];
-                            angle = 0;
-                            calculate_radius(x, y, z, ref ori, ref radi, ref norm, ref angle);
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 0][6] = "Center of circle";
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 0][7] = ori[0].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 0][8] = ori[1].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 0][9] = ori[2].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 1][6] = "Normal Vector";
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 1][7] = norm[0].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 1][8] = norm[1].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 1][9] = norm[2].ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 2][6] = "Radius";
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 2][7] = angle.ToString();
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 2][8] = "Angle";
-                            dt.Rows[times * 3 + DataNumber[dataInd] + 2][9] = radi.ToString();
-                            
-                            
+                                ori = new double[3];
+                                radi = 0;
+                                norm = new double[3];
+                                angle = 0;
+                                calculate_radius(x, y, z, ref ori, ref radi, ref norm, ref angle);
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 0][6] = "Center of circle";
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 0][7] = ori[0].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 0][8] = ori[1].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 0][9] = ori[2].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 1][6] = "Normal Vector";
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 1][7] = norm[0].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 1][8] = norm[1].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 1][9] = norm[2].ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 2][6] = "Radius";
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 2][7] = radi.ToString();
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 2][8] = "Angle";
+                                dt.Rows[times * 3 + DataNumber[dataInd] + 2][9] = angle.ToString();
 
+
+                            }
                         }
                     }
                     catch

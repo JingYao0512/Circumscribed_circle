@@ -18,3 +18,13 @@ C:\Users\JingYao\Downloads\Circumscribed_circle\Circumscribed_circle\obj\Debug\C
 C:\Users\JingYao\Downloads\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Form2.resources
 C:\Users\JingYao\Downloads\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Properties.Resources.resources
 C:\Users\JingYao\Downloads\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csproj.GenerateResource.Cache
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.exe.config
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.exe
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.pdb
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.exe
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\bin\Debug\Circumscribed_circle.pdb
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csprojResolveAssemblyReference.cache
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Form1.resources
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Form2.resources
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.Properties.Resources.resources
+D:\Marquez\Circumscribed_circle\Circumscribed_circle\Circumscribed_circle\obj\Debug\Circumscribed_circle.csproj.GenerateResource.Cache
